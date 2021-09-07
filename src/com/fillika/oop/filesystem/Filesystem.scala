@@ -13,7 +13,7 @@ object Filesystem extends App {
 
   // Бесконечный цикл позволяет программе работать не выключаясь
   while (true) {
-    state.show
+    state.show // <- Запуск цикла вызывает сначала этот метод
     val input = scanner.nextLine() // TODO разобраться с методом nextLine
 
     /**
